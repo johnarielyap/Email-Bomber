@@ -5,7 +5,7 @@ This repo is a fork from main repo and doesn't have new features and maybe have 
 
 # How to use
 ```
-git clone https://github.com/arielyap69/EmailBomber.git
+git clone https://github.com/johnarielyap/Email-Bomber.git
 ```
 
 ```
