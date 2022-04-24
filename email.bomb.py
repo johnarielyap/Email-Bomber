@@ -6,16 +6,8 @@ from time import sleep
 import pyfiglet
 
 
-ascci_banner = pyfiglet.figlet_format("PORT SCANNER")
+ascci_banner = pyfiglet.figlet_format("EMAIL BOMBER")
 print(ascci_banner)
-
-print('                                                     ')
-print('                EMAIL BOMBER TOOL V1                 ')
-print('                        BY:                          ')
-print('                 A R I E L  Y A P                    ')
-print('                                                     ')
-print('             EDUCATIONAL PURPOSES ONLY               ')
-print('\n\n')
 
 user = input('YOUR ANONYMOUS NAME : ')
 email = input('\nYOUR EMAIL ADDRESS : ')
