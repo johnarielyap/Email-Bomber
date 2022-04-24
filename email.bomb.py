@@ -50,9 +50,9 @@ except KeyboardInterrupt:
     sys.exit()
 except smtplib.SMTPAuthenticationError:
     if defaulconf:
-        print('[!] The username or password you entered is incorrect')
+        print('[!] USERNAME OR PASSWORD INCORRECT'
         print('[!] OR')
-        print('[!] You forget to enable less secure access on your google account')
+        print('[!] ENABLE LESS SECURE ACCESS ON YOUR GOOGLE ACCOUNT')
     else:
-        print('\n[!] The username, password or custom STMP server/port you entered is incorrect.')
+        print('\n[!] USERNAME, PASSWORD OR CUSTOM STMP SERVER/PORT YOU ENTERED IS INCORRECT')
     sys.exit()
