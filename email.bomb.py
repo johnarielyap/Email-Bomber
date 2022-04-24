@@ -3,6 +3,11 @@ import smtplib
 from getpass import getpass
 import sys
 from time import sleep
+import pyfiglet
+
+
+ascci_banner = pyfiglet.figlet_format("PORT SCANNER")
+print(ascci_banner)
 
 print('                                                     ')
 print('                EMAIL BOMBER TOOL V1                 ')
