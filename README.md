@@ -13,7 +13,7 @@ cd EmailBomber
 ```
 
 ```
-python Emailbomber.py
+python email.bomb.py
 ```
 
 # use gmail for better performance
